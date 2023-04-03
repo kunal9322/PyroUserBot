@@ -1,0 +1,66 @@
+{
+
+    "name": "Pyro-UserBot",
+
+    "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
+
+    "keywords": ["pyrogram", "userbot"],
+
+    "repository": "https://github.com/PyroUserBot/PyroUserBot",
+
+  "stack": "container",
+
+    "env": {
+
+        "STRING_SESSION1": {
+
+            "description": "fill with the telethon session string from @StringFather2k23Bot",
+
+            "required": true
+
+        },
+
+        "MONGO_URL": {
+
+            "description": "Fill there an mongo database from mongodb.com",
+
+            "required": true,
+
+            "value": ""
+
+        },
+
+        "SUDO_USERS": {
+
+            "description": "Fill there your I'd go to @miss_rose pm and type /id",
+
+            "required": true,
+
+            "value": "5885920877"
+
+        },
+
+        "OWNER_ID": {
+
+            "description": "Fill there your I'd go to @miss_rose pm and type /id",
+
+            "required": true,
+
+            "value": "5885920877"
+
+        },
+
+        "BOT_TOKEN": {
+
+            "description": "fill with your bot token get from @BotFather on telegram",
+
+            "required": true,
+
+            "value": ""
+
+        }
+
+    }
+
+  }
+
