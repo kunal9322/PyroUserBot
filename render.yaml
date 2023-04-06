@@ -4,7 +4,7 @@ services:
     name: Pyro
     env: python
     buildCommand: pip install -U -r requirements.txt
-    startCommand: python3 server.py & python3 -m Pyro
+    startCommand: python3 server.py & python3 -m PyroUserBot
     repo: https://github.com/PyroUserBot/PyroUserBot
     branch: master
     envVars:
